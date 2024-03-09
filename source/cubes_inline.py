@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """
 10 cubes laying in line, projected on a plane (parallel to one side)
+The idea of the 10 cubes is that each cube represents a Natural number [0-9],
+another way the last decimal value in any given number.
+
 Cubes are object oriented (Cube class), with
-- coordinates (x,y,z)
-- size
+- coordinates (x,y,z),
+- size,
 - color
 
-prerequisite: pygame modul
+prerequisite: pygame module
 Install with one of the command below in a shell (command line window):
 conda install cogsci::pygame
 or
@@ -75,7 +78,7 @@ pygame.init()
 screen_width = 800
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("3D Cubes") #software window title
+pygame.display.set_caption("3D Cubes - projection") #software window title
 
 # Create cubes
 cubes = []
@@ -105,7 +108,8 @@ while running:
 
     # Update the screen
     pygame.display.flip()
-
+    pygame.time.wait(40) #adjust FPS
+    
 # Quit pygame
 pygame.quit()
 sys.exit()
