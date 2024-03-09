@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-10 cubes laying in line, projected on a plane (parallel to one side)
+10 (3D) cubes laying in one line
 The idea of the 10 cubes is that each cube represents a Natural number [0-9],
-another way the last decimal value in any given number.
+i.e. the last decimal value in any given Natural number.
 
 Cubes are object oriented objects, with
 - coordinates (x,y,z),
 - size,
-- color
+- color (same colour all sides)
 
 prerequisite: pygame module
 Install with one of the command below in a shell (command line window):

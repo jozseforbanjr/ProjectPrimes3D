@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Presenting Prime nummbers as coloured cubes on a "Decimal Wall of Natural Numbers".
+Presenting Prime numbers as coloured cubes on a "Decimal Wall of Natural Numbers".
 I refer as "Decimal Wall of Natural Numbers" to such a table-like representation 
 of Natural numbers in which in each line there are 10 positions.
 Each position refers to the last decimal value in a given number [0-9]. Reaching every tenth
-number a new line is created (above the previous). In this code counting goues up to 1000.
+number a new line is created (above the previous). In this code counting goes up to 1000.
 Only Prime numbers are coloured, with different colours respectively to their position in the wall,
 i.e. depending on the last digit.
 Non-Prime numbers are represented by gray cubes.
